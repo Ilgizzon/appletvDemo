@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.AppleTV.XIB" version="3.0" toolsVersion="17701" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="appleTV" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainContentViewCell" customModule="TvApp" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MainContentViewCell" id="Bij-9L-MYi" customClass="MainContentViewCell" customModule="TvApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="408" height="280"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="6zn-dq-6zY">
+                <rect key="frame" x="0.0" y="0.0" width="408" height="280"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="axM-w1-vwI">
+                        <rect key="frame" x="0.0" y="0.0" width="408" height="232"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="232" id="cX1-nJ-aNe"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="hmp-bS-x0Y">
+                        <rect key="frame" x="0.0" y="232" width="408" height="48"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="48" id="Qnu-Jf-SCM"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="axM-w1-vwI" firstAttribute="top" secondItem="6zn-dq-6zY" secondAttribute="top" id="8OE-K0-Y6R"/>
+                    <constraint firstItem="hmp-bS-x0Y" firstAttribute="leading" secondItem="6zn-dq-6zY" secondAttribute="leading" id="GUk-mb-bW8"/>
+                    <constraint firstAttribute="trailing" secondItem="hmp-bS-x0Y" secondAttribute="trailing" id="T6e-Tq-Afl"/>
+                    <constraint firstAttribute="bottom" secondItem="hmp-bS-x0Y" secondAttribute="bottom" id="XSi-go-GZ0"/>
+                    <constraint firstItem="hmp-bS-x0Y" firstAttribute="top" secondItem="axM-w1-vwI" secondAttribute="bottom" id="g2r-LF-0DK"/>
+                    <constraint firstItem="axM-w1-vwI" firstAttribute="leading" secondItem="6zn-dq-6zY" secondAttribute="leading" id="mPR-DF-aDo"/>
+                    <constraint firstAttribute="trailing" secondItem="axM-w1-vwI" secondAttribute="trailing" id="tnc-tW-Ita"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="contentTitle" destination="hmp-bS-x0Y" id="GUC-C7-d89"/>
+                <outlet property="imageView" destination="axM-w1-vwI" id="qU1-XQ-vMI"/>
+            </connections>
+            <point key="canvasLocation" x="-125" y="21"/>
+        </collectionViewCell>
+    </objects>
+</document>

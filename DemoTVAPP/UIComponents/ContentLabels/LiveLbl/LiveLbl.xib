@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.AppleTV.XIB" version="3.0" toolsVersion="17701" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="appleTV" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LiveLbl" customModule="TvApp" customModuleProvider="target">
+            <connections>
+                <outlet property="labelView" destination="JoC-wW-1Fd" id="r11-AS-Izd"/>
+                <outlet property="textLabel" destination="kWp-AX-aok" id="YYe-hI-ZrA"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="9ar-Yn-ImL">
+            <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JoC-wW-1Fd">
+                    <rect key="frame" x="1776" y="998" width="124" height="62"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kWp-AX-aok">
+                            <rect key="frame" x="16" y="8" width="92" height="46"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemRedColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="kWp-AX-aok" secondAttribute="trailing" constant="16" id="5i9-yF-4T3"/>
+                        <constraint firstItem="kWp-AX-aok" firstAttribute="top" secondItem="JoC-wW-1Fd" secondAttribute="top" constant="8" id="kko-BJ-wvV"/>
+                        <constraint firstItem="kWp-AX-aok" firstAttribute="leading" secondItem="JoC-wW-1Fd" secondAttribute="leading" constant="16" id="u6N-sU-yCC"/>
+                        <constraint firstAttribute="bottom" secondItem="kWp-AX-aok" secondAttribute="bottom" constant="8" id="xPA-I0-MJj"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="JoC-wW-1Fd" secondAttribute="trailing" constant="20" id="8fI-3W-cxh"/>
+                <constraint firstAttribute="bottom" secondItem="JoC-wW-1Fd" secondAttribute="bottom" constant="20" id="qWD-kC-Mut"/>
+            </constraints>
+            <point key="canvasLocation" x="-66" y="9"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

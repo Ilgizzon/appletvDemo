@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.AppleTV.XIB" version="3.0" toolsVersion="17701" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="appleTV" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BrowseView" customModule="TvApp" customModuleProvider="target">
+            <connections>
+                <outlet property="contentStack" destination="RIl-V2-7jb" id="TSI-hl-CEI"/>
+                <outlet property="scrollView" destination="z0G-w5-6el" id="rF8-5P-yXt"/>
+                <outlet property="view" destination="iN0-l3-epB" id="Eym-vH-oyN"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z0G-w5-6el">
+                    <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1jL-xG-7oF">
+                            <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="RIl-V2-7jb">
+                                    <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="RIl-V2-7jb" secondAttribute="trailing" id="OeC-hQ-2E2"/>
+                                <constraint firstItem="RIl-V2-7jb" firstAttribute="leading" secondItem="1jL-xG-7oF" secondAttribute="leading" id="QfE-5M-2Kq"/>
+                                <constraint firstAttribute="bottom" secondItem="RIl-V2-7jb" secondAttribute="bottom" id="Upl-d3-Z7z"/>
+                                <constraint firstItem="RIl-V2-7jb" firstAttribute="top" secondItem="1jL-xG-7oF" secondAttribute="top" id="ebY-FH-f9z"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="1jL-xG-7oF" firstAttribute="leading" secondItem="z0G-w5-6el" secondAttribute="leading" id="LiR-cr-Qr3"/>
+                        <constraint firstAttribute="bottom" secondItem="1jL-xG-7oF" secondAttribute="bottom" id="djQ-b5-zGA"/>
+                        <constraint firstItem="1jL-xG-7oF" firstAttribute="top" secondItem="z0G-w5-6el" secondAttribute="top" id="uBM-bi-hS2"/>
+                        <constraint firstAttribute="trailing" secondItem="1jL-xG-7oF" secondAttribute="trailing" id="v6h-Y4-K2F"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="z0G-w5-6el" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Bvx-sK-91f"/>
+                <constraint firstAttribute="bottom" secondItem="z0G-w5-6el" secondAttribute="bottom" id="T8b-tY-Be6"/>
+                <constraint firstItem="1jL-xG-7oF" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" priority="750" id="XRo-f4-kvb"/>
+                <constraint firstAttribute="trailing" secondItem="z0G-w5-6el" secondAttribute="trailing" id="tsa-lp-FLJ"/>
+                <constraint firstItem="z0G-w5-6el" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="u17-Pe-xdT"/>
+                <constraint firstItem="1jL-xG-7oF" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="utn-kj-lBN"/>
+            </constraints>
+            <simulatedTabBarMetrics key="simulatedTopBarMetrics"/>
+            <point key="canvasLocation" x="-66" y="11"/>
+        </view>
+    </objects>
+</document>
