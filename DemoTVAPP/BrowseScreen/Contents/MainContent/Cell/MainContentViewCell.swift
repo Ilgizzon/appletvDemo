@@ -17,7 +17,7 @@ class MainContentViewCell: UICollectionViewCell {
         imageView.adjustsImageWhenAncestorFocused = true
         imageView.masksFocusEffectToContents = true
         contentTitle.font = UIConstants.Fonts.bodyMedium
-        contentTitle.textColor = UIConstants.Colors.white80
+        contentTitle.textColor = UIConstants.Colors.grey80
     }
     
     func loadImage(_ image: UIImage?){
@@ -83,7 +83,7 @@ class MainContentViewCell: UICollectionViewCell {
         UIView.animate(withDuration: 0.5) {
             
             self.contentTitle.transform = self.contentTitle.transform.translatedBy(x: 0, y: 20)
-            self.contentTitle.textColor = UIConstants.Colors.white100
+            self.contentTitle.textColor = UIConstants.Colors.grey100
             
         }
     }
@@ -91,7 +91,7 @@ class MainContentViewCell: UICollectionViewCell {
     private func defocusAnimation() {
         UIView.animate(withDuration: 0.5) {
             self.contentTitle.transform = CGAffineTransform.identity
-            self.contentTitle.textColor = UIConstants.Colors.white80
+            self.contentTitle.textColor = UIConstants.Colors.grey80
         }
     }
 }

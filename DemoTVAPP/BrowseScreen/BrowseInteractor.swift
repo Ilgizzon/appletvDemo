@@ -10,7 +10,7 @@ import Foundation
 extension BrowseView {
     func getCategory(){
         dispatchGroup.enter()
-        
+        parseData(data: MockCategoriesResponse.generate())
     }
     
     

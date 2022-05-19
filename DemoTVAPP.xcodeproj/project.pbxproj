@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E4264FE62835433B0046F0B9 /* CategoryPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4264FE42835433B0046F0B9 /* CategoryPreview.swift */; };
+		E4264FE72835433B0046F0B9 /* ContentPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4264FE52835433B0046F0B9 /* ContentPreview.swift */; };
+		E4264FE9283545480046F0B9 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4264FE8283545480046F0B9 /* Content.swift */; };
 		E4AD22DA2833E68C00B8DBC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AD22D92833E68C00B8DBC0 /* AppDelegate.swift */; };
-		E4AD22DC2833E68C00B8DBC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AD22DB2833E68C00B8DBC0 /* ViewController.swift */; };
 		E4AD22E12833E68D00B8DBC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4AD22E02833E68D00B8DBC0 /* Assets.xcassets */; };
 		E4AD22E42833E68D00B8DBC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4AD22E22833E68D00B8DBC0 /* LaunchScreen.storyboard */; };
 		E4AD22EE2833E85100B8DBC0 /* TabBarAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AD22EB2833E85100B8DBC0 /* TabBarAnimatedTransitioning.swift */; };
@@ -62,14 +64,15 @@
 		E4AD235F2833EE9E00B8DBC0 /* SettingsUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AD233E2833EE9E00B8DBC0 /* SettingsUI.swift */; };
 		E4AD23602833EE9E00B8DBC0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AD233F2833EE9E00B8DBC0 /* SettingsView.swift */; };
 		E4AD23612833EE9E00B8DBC0 /* SettingsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AD23402833EE9E00B8DBC0 /* SettingsRouter.swift */; };
-		E4AD23642833F0E800B8DBC0 /* ContentPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AD23632833F0E800B8DBC0 /* ContentPreview.swift */; };
 		E4AD23662833F37D00B8DBC0 /* CategoriesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AD23652833F37D00B8DBC0 /* CategoriesResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E4264FE42835433B0046F0B9 /* CategoryPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryPreview.swift; sourceTree = "<group>"; };
+		E4264FE52835433B0046F0B9 /* ContentPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentPreview.swift; sourceTree = "<group>"; };
+		E4264FE8283545480046F0B9 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		E4AD22D62833E68C00B8DBC0 /* DemoTVAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoTVAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4AD22D92833E68C00B8DBC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E4AD22DB2833E68C00B8DBC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E4AD22E02833E68D00B8DBC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4AD22E32833E68D00B8DBC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4AD22EB2833E85100B8DBC0 /* TabBarAnimatedTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarAnimatedTransitioning.swift; sourceTree = "<group>"; };
@@ -124,7 +127,6 @@
 		E4AD233E2833EE9E00B8DBC0 /* SettingsUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsUI.swift; sourceTree = "<group>"; };
 		E4AD233F2833EE9E00B8DBC0 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		E4AD23402833EE9E00B8DBC0 /* SettingsRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsRouter.swift; sourceTree = "<group>"; };
-		E4AD23632833F0E800B8DBC0 /* ContentPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentPreview.swift; sourceTree = "<group>"; };
 		E4AD23652833F37D00B8DBC0 /* CategoriesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,6 +141,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E4264FE32835433B0046F0B9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E4264FE42835433B0046F0B9 /* CategoryPreview.swift */,
+				E4264FE52835433B0046F0B9 /* ContentPreview.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		E4AD22CD2833E68C00B8DBC0 = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +169,7 @@
 		E4AD22D82833E68C00B8DBC0 /* DemoTVAPP */ = {
 			isa = PBXGroup;
 			children = (
+				E4264FE32835433B0046F0B9 /* Data */,
 				E4AD23622833F0CF00B8DBC0 /* Mock */,
 				E4AD23172833EE9E00B8DBC0 /* BrowseScreen */,
 				E4AD23322833EE9E00B8DBC0 /* FavoritesSreen */,
@@ -167,7 +179,6 @@
 				E4AD22F12833E90100B8DBC0 /* UIComponents */,
 				E4AD22EA2833E85100B8DBC0 /* TabBar */,
 				E4AD22D92833E68C00B8DBC0 /* AppDelegate.swift */,
-				E4AD22DB2833E68C00B8DBC0 /* ViewController.swift */,
 				E4AD22E02833E68D00B8DBC0 /* Assets.xcassets */,
 				E4AD22E22833E68D00B8DBC0 /* LaunchScreen.storyboard */,
 			);
@@ -358,8 +369,8 @@
 		E4AD23622833F0CF00B8DBC0 /* Mock */ = {
 			isa = PBXGroup;
 			children = (
-				E4AD23632833F0E800B8DBC0 /* ContentPreview.swift */,
 				E4AD23652833F37D00B8DBC0 /* CategoriesResponse.swift */,
+				E4264FE8283545480046F0B9 /* Content.swift */,
 			);
 			path = Mock;
 			sourceTree = "<group>";
@@ -452,6 +463,7 @@
 			files = (
 				E4AD23572833EE9E00B8DBC0 /* FavoritesRouter.swift in Sources */,
 				E4AD234D2833EE9E00B8DBC0 /* MainContentUI.swift in Sources */,
+				E4264FE62835433B0046F0B9 /* CategoryPreview.swift in Sources */,
 				E4AD23492833EE9E00B8DBC0 /* MainContentInteractor.swift in Sources */,
 				E4AD230C2833E90100B8DBC0 /* LiveLbl.swift in Sources */,
 				E4AD230A2833E90100B8DBC0 /* PlaylistLbl.swift in Sources */,
@@ -460,17 +472,16 @@
 				E4AD22EE2833E85100B8DBC0 /* TabBarAnimatedTransitioning.swift in Sources */,
 				E4AD23462833EE9E00B8DBC0 /* HeaderDelegate.swift in Sources */,
 				E4AD23502833EE9E00B8DBC0 /* MainContentViewDelegate.swift in Sources */,
-				E4AD22DC2833E68C00B8DBC0 /* ViewController.swift in Sources */,
 				E4AD23482833EE9E00B8DBC0 /* HeaderDataSource.swift in Sources */,
 				E4AD22DA2833E68C00B8DBC0 /* AppDelegate.swift in Sources */,
 				E4AD23472833EE9E00B8DBC0 /* HeaderView.swift in Sources */,
 				E4AD23412833EE9E00B8DBC0 /* BrowseView.swift in Sources */,
 				E4AD234C2833EE9E00B8DBC0 /* MainContentViewCell.swift in Sources */,
-				E4AD23642833F0E800B8DBC0 /* ContentPreview.swift in Sources */,
 				E4AD23562833EE9E00B8DBC0 /* FavoritesView.swift in Sources */,
 				E4AD23442833EE9E00B8DBC0 /* HeaderCell.swift in Sources */,
 				E4AD235F2833EE9E00B8DBC0 /* SettingsUI.swift in Sources */,
 				E4AD23092833E90100B8DBC0 /* ImageExtensions.swift in Sources */,
+				E4264FE9283545480046F0B9 /* Content.swift in Sources */,
 				E4AD234A2833EE9E00B8DBC0 /* MainContentViewDataSource.swift in Sources */,
 				E4AD23602833EE9E00B8DBC0 /* SettingsView.swift in Sources */,
 				E4AD23542833EE9E00B8DBC0 /* BrowseUI.swift in Sources */,
@@ -478,6 +489,7 @@
 				E4AD23082833E90100B8DBC0 /* UIEffects.swift in Sources */,
 				E4AD23512833EE9E00B8DBC0 /* ContentDelegate.swift in Sources */,
 				E4AD23662833F37D00B8DBC0 /* CategoriesResponse.swift in Sources */,
+				E4264FE72835433B0046F0B9 /* ContentPreview.swift in Sources */,
 				E4AD235B2833EE9E00B8DBC0 /* SearchRouter.swift in Sources */,
 				E4AD234F2833EE9E00B8DBC0 /* MainContentView.swift in Sources */,
 				E4AD23612833EE9E00B8DBC0 /* SettingsRouter.swift in Sources */,
@@ -631,7 +643,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DemoTVAPP/Info.plist;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -656,7 +668,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DemoTVAPP/Info.plist;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

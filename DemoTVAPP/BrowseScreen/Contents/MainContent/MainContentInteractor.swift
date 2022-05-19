@@ -9,7 +9,7 @@ import Foundation
 extension MainContentView {
     
     func getContents(id: Int){
-    
+        parseData(MockContent.generate(id: id))
     }
     
     private func parseData(_ networkContents: [Content]?){
@@ -26,7 +26,7 @@ extension MainContentView {
                 contentType = .live
                 break
             case .collection:
-                contentType = .collection(oneContent.children?.count)
+                contentType = .collection(oneContent.childrenCount)
                 break
             case .video:
                 contentType = .video(oneContent.duration)

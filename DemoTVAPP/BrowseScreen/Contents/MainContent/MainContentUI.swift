@@ -27,6 +27,6 @@ extension MainContentView {
         collectionView.reloadData()
         
         titleLabel.font = UIConstants.Fonts.title3Bold
-        titleLabel.textColor = UIConstants.Colors.white80
+        titleLabel.textColor = UIConstants.Colors.grey80
     }
 }

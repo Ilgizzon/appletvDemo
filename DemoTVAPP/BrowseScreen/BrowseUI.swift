@@ -9,7 +9,7 @@ import UIKit
 import TVUIKit
 extension BrowseView {
     func configUI() {
-        self.view.backgroundColor = UIConstants.Colors.grey100
+        self.view.backgroundColor = UIConstants.Colors.white80
         self.contentStack.subviews.forEach{
             $0.removeFromSuperview()
         }
